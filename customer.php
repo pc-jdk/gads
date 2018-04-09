@@ -86,16 +86,16 @@
 	echo "<div style='height: 80px;'></div>
     <div>";
 	
-		$query=mysqli_query($con,'select * from item_detail');
+		$query=mysqli_query($con,'select * from product');
 		while($row=mysqli_fetch_array($query)){
 			?>
 				<div class="col-lg-3">
 				<div>
 					<img src= "<?php echo $row['item_image'] ?>" style="width: 230px; height:230px; padding:auto; margin:auto;" class="thumbnail">
 					<div style="height: 10px;"></div>
-					<div style="height:40px; width:230px; margin-left:17px;"><?php echo $row['item_name']; ?></div>
+					<div style="height:40px;  width:230px; margin-left:19px;"><?php echo $row['item_name']; ?></div>
 					<div style="height: 10px;"></div>
-					<div style="display:none; position:absolute; top:210px; left:10px;" class="well" id="cart<?php echo $row['productid']; ?>">Qty: <input type="text" style="width:40px;" id="qty<?php echo $row['item_quatity']; ?>"> 
+					<div style=" top:220px; left:20px;" class="well" id="cart">Qty: <input type="text" style="width:40px;" id="qty" name ="qty"> 
 						<button type="button" class="btn btn-primary btn-sm addcart" value=""><i class="fa fa-shopping-cart fa-fw"></i> Add to Cart</button> <span class="pull-right"><strong><?php echo number_format($row['item_amount'],2); ?></strong></span> 
 					</div>
 				</div>
