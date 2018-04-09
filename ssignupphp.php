@@ -10,13 +10,7 @@
     </head>
 <body>
 
-<div class="container">
-  <h2> Welcome <strong> Shopkeeper</strong></h2>
-  <div class="alert alert-success alert-dismissible fade in" id="myAlert">
-    <a href="login.php" class="close">&times;</a>
-    <strong> Signup Success!</strong> Please close the message to <strong>Login.</strong>
-  </div>
-</div>
+
 
 <?php include "db.php"; ?>
 <?php
@@ -35,13 +29,13 @@ if(mysqli_query($con,$int_sql))
 { 
 ?>
 <script>
-$(document).ready(function(){
-    $(".close").click(function(){
-        $("#myAlert").alert("close");
-    });
-});
+alert('signup success');</script>
+		<script>window.location='login.php';
 </script>
-	<?php }else{
+	<?php 
+}
+	else
+{
     echo "fail to Signin";
 }
 ?>
