@@ -173,17 +173,17 @@ session_start();
                  
 			if(mysqli_query($con,$sql4))
             { 
-          echo "<script>alert('<b>Successfully New Item has been Added </b>')</script>";
+          echo "<script>alert('Successfully New Item has been Added ')</script>";
 	     }
                 else
                 {
-                echo "<script>alert('<b>Fail Data has been Stored </b>')</script>";
+                echo "<script>alert('Failed to store Data ')</script>";
             }
 
 	   }
 		}
 	}else{
-          echo '<script>alert("fail in image")</script>';  
+          echo '<script>alert("Failed to add Image")</script>';  
         }
                    }
 			 ?>
