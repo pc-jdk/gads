@@ -108,7 +108,7 @@
         </h2>
       </div>
       <div class="col-md-4">
-        <p>Are you puzzle for the grocery every month? We are here to solve your problem by just on single click. It is easy to make you list and to select the shop you want to order. It also helps to save you are time and cost.  </p>
+        <p>Are you puzzle  the grocery every month? We are here to solve your problem by just on single click. It is easy to make you list and to select the shop you want to order. It also helps to save you are time and cost.  </p>
         <p> </p>
       </div>
       <div class="col-md-4">
