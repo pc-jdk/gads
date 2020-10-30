@@ -79,7 +79,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="heading">
-                <center> <h2><small>Benefits of Grocery at door step </small><br> Enjoy the glow of good health</h2></center>
+                <center> <h2><small> Uses of Grocery at door step </small><br> Enjoy the glow of good health</h2></center>
     </div>
         </div>
       <div class="col-md-12">
